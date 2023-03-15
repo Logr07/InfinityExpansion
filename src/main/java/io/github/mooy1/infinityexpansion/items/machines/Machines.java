@@ -205,7 +205,7 @@ public final class Machines {
             "&cInfinity &8Cobble Generator",
             "",
             MachineLore.speed(64),
-            MachineLore.energyPerSecond(800)
+            MachineLore.energyPerSecond(2000)
     );
     public static final SlimefunItemStack BASIC_OBSIDIAN = new SlimefunItemStack(
             "BASIC_OBSIDIAN_GEN",
@@ -332,7 +332,7 @@ public final class Machines {
                 Materials.VOID_INGOT, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, Materials.VOID_INGOT,
                 Materials.VOID_INGOT, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, Materials.VOID_INGOT,
                 Materials.VOID_INGOT, Materials.VOID_INGOT, Materials.VOID_INGOT, Materials.VOID_INGOT, Materials.VOID_INGOT, Materials.VOID_INGOT
-        }).material(Material.COBBLESTONE).speed(64).energyPerTick(800).register(plugin);
+        }).material(Material.COBBLESTONE).speed(64).energyPerTick(2000).register(plugin);
         new MaterialGenerator(Groups.ADVANCED_MACHINES, BASIC_OBSIDIAN, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
                 SlimefunItems.FLUID_PUMP, SlimefunItems.PROGRAMMABLE_ANDROID_MINER, SlimefunItems.FLUID_PUMP,
                 new ItemStack(Material.DISPENSER), Materials.VOID_INGOT, new ItemStack(Material.DISPENSER),
