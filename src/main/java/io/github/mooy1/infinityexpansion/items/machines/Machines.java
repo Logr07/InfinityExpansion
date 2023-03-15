@@ -316,7 +316,7 @@ public final class Machines {
                 Materials.COBBLE_5, Materials.COBBLE_5, Materials.COBBLE_5, Materials.COBBLE_5, Materials.COBBLE_5, Materials.COBBLE_5
         }, BEDROCK_ENERGY).register(plugin);
         new MaterialGenerator(Groups.BASIC_MACHINES, BASIC_COBBLE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                Materials.MAGSTEEL, new ItemStack(Material.DIAMOND_PICKAXE), Materials.MAGSTEEL,
+                Materials.MAGSTEEL, SlimefunItems.PROGRAMMABLE_ANDROID_MINER, Materials.MAGSTEEL,
                 new ItemStack(Material.WATER_BUCKET), Materials.COBBLE_2, new ItemStack(Material.LAVA_BUCKET),
                 Materials.MAGSTEEL, Materials.MACHINE_CIRCUIT, Materials.MAGSTEEL
         }).material(Material.COBBLESTONE).speed(1).energyPerTick(24).register(plugin);
