@@ -328,8 +328,8 @@ public final class Machines {
         new MaterialGenerator(Groups.INFINITY_CHEAT, INFINITY_COBBLE, InfinityWorkbench.TYPE, new ItemStack[] {
                 Materials.VOID_INGOT, Materials.VOID_INGOT, Materials.INFINITE_INGOT, Materials.INFINITE_INGOT, Materials.VOID_INGOT, Materials.VOID_INGOT,
                 Materials.VOID_INGOT, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, Materials.VOID_INGOT,
-                Materials.INFINITE_INGOT, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, Materials.INFINITE_INGOT,
-                Materials.INFINITE_INGOT, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, Materials.INFINITE_INGOT,
+                Materials.INFINITE_INGOT, ADVANCED_COBBLE, new ItemStack(Material.NETHERITE_PICKAXE), new ItemStack(Material.NETHERITE_PICKAXE), ADVANCED_COBBLE, Materials.INFINITE_INGOT,
+                Materials.INFINITE_INGOT, ADVANCED_COBBLE, Materials.INFINITE_CIRCUIT, Materials.INFINITE_CIRCUIT, ADVANCED_COBBLE, Materials.INFINITE_INGOT,
                 Materials.VOID_INGOT, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, ADVANCED_COBBLE, Materials.VOID_INGOT,
                 Materials.VOID_INGOT, Materials.VOID_INGOT, Materials.INFINITE_INGOT, Materials.INFINITE_INGOT, Materials.VOID_INGOT, Materials.VOID_INGOT
         }).material(Material.COBBLESTONE).speed(64).energyPerTick(2000).register(plugin);
